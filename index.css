@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe4e1;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+    color:#4b0082;
+}
+/*Winner message*/
+.msg-container{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5a00eb;
+}
+
+/*Show the points of X and O*/
+.msg-container-2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0004eb;
+}
+
+/*This is for new button*/
+.new-btn{
+    height: 10vmin;
+    width: 15vmin;
+     font-size: 1rem;
+     font-weight: bold;
+     border-radius: 1rem;
+     justify-content: center;
+     cursor: pointer;
+     color: rgb(8, 55, 55);
+     background-color: rgb(217, 74, 34);
+     padding-top: 10px;
+}
+.hide{
+    display: none;
+}
+
+/* all the boxes*/
+.main-container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+/* buttons*/
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+
+    background-color: azure;
+    cursor: pointer;
+    
+}
+
+
+.color2{
+    font-weight: bold;
+    font-size: 10vmin;
+    color: #B22222;
+}
+.color{
+    color:#8B008b;
+    font-weight: bold;
+    font-size: 10vmin;
+}
+
+/*reset button*/
+.reset{
+    height: 10vmin;
+    width: 10vmin;
+     font-size: 1rem;
+     font-weight: bold;
+     border-radius: 1rem;
+     justify-content: center;
+     cursor: pointer;
+     color: rgb(8, 55, 55);
+     background-color: rgb(217, 74, 34);
+   
+     
+}
+
